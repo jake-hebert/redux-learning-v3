@@ -21,7 +21,7 @@ function App() {
         <div>
           <h3>More actions:</h3>
           <button onClick={() => dispatch(clearDrinks())}>
-            Nuke Vessel Contents
+            Nuke All Contents
           </button>
           <AddVessel />
         </div>
