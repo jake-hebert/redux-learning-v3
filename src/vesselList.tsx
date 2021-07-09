@@ -18,7 +18,7 @@ const VesselList: FunctionComponent<{ drinkId: string }> = ({ drinkId }) => {
   const options = getVesselOptions();
   const dispatch = useDispatch();
   if (options.length === 0) {
-    return null;
+    return <div> ---- </div>;
   } else {
     return (
       <pre>
